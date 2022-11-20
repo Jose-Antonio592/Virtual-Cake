@@ -1,0 +1,73 @@
+@import url(fontello-0e3901e7/css/menu.css);
+@import url(fontello-0e3901e7/css/banner.css);
+@import url(fontello-0e3901e7/css/blog.css);
+@import url(fontello-0e3901e7/css/info.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "Sofia", sans-serif;
+  }
+
+  header{
+    width: 100%;
+    height: 50px;
+    background: rgba(250, 109, 109, 0.507);
+    color: rgb(48, 232, 245);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.Contenedor{
+width: 98%;
+margin: auto;
+}
+h1{
+    float: left;
+}
+
+header .Contenedor{
+    display: table
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#Bienvenidos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.copy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media(min-width:1024px){
+    .Contenedor{
+        width: 1000px;
+    }
+}
